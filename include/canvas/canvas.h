@@ -146,6 +146,7 @@ struct Canvas
     void drawChar(int x, int y, unsigned char asciiCode, Color color, Color background);
     void drawChar(int x, int y, unsigned char asciiCode, Color color, Font *font);
     void drawChar(int x, int y, unsigned char asciiCode, Color color, Color background, Font *font);
+
     void drawText(int x, int y, const char *text, Color color);
     void drawText(int x, int y, const char *text, Color color, Color background);
     void drawText(int x, int y, const char *text, Color color, Font *font);
